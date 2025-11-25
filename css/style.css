@@ -1,9 +1,9 @@
-body{
+body {
   margin: 0%;
   padding: 0%;
   background-color: #fffbe6;
 }
-.navbar-main-container{
+.navbar-main-container {
   background-color: rgb(15, 15, 15);
   color: white;
   display: flex;
@@ -12,36 +12,114 @@ body{
   position: static;
   top: 0;
 }
-.logo-container{
-display: flex;
-align-items: center;
-gap: 20px;
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
-.main-logo{
+.main-logo {
   border-radius: 30px;
   cursor: pointer;
 }
-.project-name{
+.project-name {
   font-size: 24px;
   font-weight: bold;
   cursor: pointer;
 }
-.nav-links-container{
+.nav-links-container {
   display: flex;
   gap: 30px;
   cursor: pointer;
 }
-.auth-link-container{
+.menu-item{
+  text-decoration: none;
+  color: white;
+}
+.auth-link-container {
   display: flex;
   gap: 30px;
   cursor: pointer;
 }
-.main-image{
+.main-image {
   margin-top: 20px;
-  height: 500px
+  height: 500px;
 }
-.main-content-container{
+.main-content-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.main-text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.project-heading {
+  font-size: 70px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: "cursive";
+}
+.project-subheading {
+  font-size: 30px;
+  font-style: italic;
+  font-family: "cursive";
+}
+.main-button-container {
+  display: flex;
+  gap: 20px;
+}
+.get-started-button {
+  padding: 10px 30px;
+  font-size: 15px;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
   display: flex;
   align-items: center;
-  justify-content: space-around
+  gap: 7px;
+}
+.get-started-button:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.learn-more-button {
+  padding: 10px 30px;
+  font-size: 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.learn-more-button:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width: 768px) {
+  .main-content-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .project-heading {
+    font-size: 40px;
+    padding-left:10px;
+    padding-right: 10px;
+  }
+  .main-image {
+    height: 300px;
+  }
+  .project-subheading{
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .main-button-container{
+    flex-direction: column;
+  }
 }

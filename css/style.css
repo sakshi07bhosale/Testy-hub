@@ -64,6 +64,60 @@ body {
 .learn-more-button:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+.footer-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  padding-right: 100px;
+  padding-left: 100px;
+  background-color: #333;
+  color: white;
+}
+.footer-section-1{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 1200px;
+}
+.social-icons-container{
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.social-icons{
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 50px;
+  padding: 5px;
+}
+
+
+.footer-section-2{
+display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 800px
+}
+.footer-section-3{
+display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 800px
+}
+.footer-section-4{
+display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 800px
+}
+
+
+
+
+
 @media screen and (max-width: 768px) {
   .main-content-container {
     flex-direction: column;

@@ -3,43 +3,6 @@ body {
   padding: 0%;
   background-color: #fffbe6;
 }
-.navbar-main-container {
-  background-color: rgb(15, 15, 15);
-  color: white;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  position: static;
-  top: 0;
-}
-.logo-container {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-.main-logo {
-  border-radius: 30px;
-  cursor: pointer;
-}
-.project-name {
-  font-size: 24px;
-  font-weight: bold;
-  cursor: pointer;
-}
-.nav-links-container {
-  display: flex;
-  gap: 30px;
-  cursor: pointer;
-}
-.menu-item{
-  text-decoration: none;
-  color: white;
-}
-.auth-link-container {
-  display: flex;
-  gap: 30px;
-  cursor: pointer;
-}
 .main-image {
   margin-top: 20px;
   height: 500px;

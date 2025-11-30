@@ -1,0 +1,53 @@
+.recipes-main-heading{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2.5em;
+  color: #333;
+}
+.recipes-image-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.recipes-image-card{
+  width: 300px;
+  height: 380px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin: 20px auto;
+  background-color: white;
+}
+.purnpoli-img{
+  width: 100%;
+  border-radius: 10px;
+}
+.recipes-image-text-container{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.recipes-image-heading{
+  font-size: 25px;
+  font-weight: bold;
+color: #555;
+text-align: center;
+}
+.recipes-image-description{
+  font-size: 16px;
+  color: #666;
+  text-align: center;
+  margin-top: 10px;
+}
+.view-recipe-button{
+  display: block;
+  width: 80%;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  text-align: center;
+  border: none;
+  border-radius: 20px;
+  text-decoration: none;
+}
